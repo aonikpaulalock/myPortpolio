@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link,NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 const Header = () => {
   const navMenu =
     <>
@@ -22,8 +22,8 @@ const Header = () => {
             {navMenu}
           </ul>
         </div>
-        <Link to="" class="text-primary font-bold text-2xl">
-                 Ap | | Vai
+        <Link to="" class="text-primary font-bold text-3xl tracking-wider">
+                Ap<span className='text-neutral'>Aonik</span>
         </Link>
       </div>
       <div class="navbar-end hidden lg:flex">
