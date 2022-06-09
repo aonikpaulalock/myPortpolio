@@ -12,8 +12,8 @@ const services = [
 const Services = () => {
   return (
     <div className='sm:px-16 sm:my-16 px-6 my-10'>
-      <h1 class="md:text-4xl font-bold text-secondary text-3xl tracking-wider">What I'm Doing</h1>
-      <h3 class="md:text-1xl text-xl font-medium racking-wider pt-2 pb-8 text-neutral">I love what I do. I take great pride in what I do.</h3>
+      <h1 class="md:text-4xl font-bold text-secondary text-3xl tracking-widest mb-6">What <span className="text-neutral">I'm D</span>oing</h1>
+      
       <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6">
         {
           services.map(service => <Service

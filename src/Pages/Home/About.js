@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import about from "../../Asset/About/about.png"
 const About = () => {
   return (
@@ -9,8 +10,10 @@ const About = () => {
           <div className="md:text-left text-center">
             <h1 class="md:text-4xl font-bold text-secondary text-3xl ">ABOUT ME</h1>
             <h3 class="md:text-2xl text-xl font-medium racking-wider pt-2 text-neutral">Junior Frontend Developer</h3>
-            <p class="py-6 font-medium text-gray-600">I am Jhone Deo Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever It has survived not only five centuries, but also the leap into electronic but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing</p>
-            <button class="btn btn-secondary rounded-full px-14 py-0 text-white font-bold tracking-widest">HIRE ME</button>
+            <p class="py-6 font-medium text-gray-600">I am Aonik Paul Alock . Always I am ready to prove myself through my work and hard-working individual proficiency in web technologies. To improve myself as a performer, discovering something new every single day is part of being a High-Level Programmer as well as ability to communicate effectively in a team setting.</p>
+            <a href="https://www.linkedin.com/in/aonik-paul-alock-353b78229/" download target="_blank" as={Link} rel="noreferrer">
+              <button class="btn btn-secondary rounded-full px-14 py-0 text-white font-bold tracking-widest">HIRE ME</button>
+            </a>
           </div>
         </div>
       </div>

@@ -13,7 +13,7 @@ const Contact = () => {
   }
   return (
     <div className="sm:px-10 my-6">
-      <h1 class="md:text-4xl font-bold text-secondary text-3xl tracking-wider pb-8">CONTACT US</h1>
+      <h1 class="md:text-4xl font-bold text-secondary text-3xl tracking-wider pb-8">CON<span className="text-neutral">TACT</span> US</h1>
       <div class="flex justify-around items-center flex-col md:flex-row rounded-xl">
         <div className="md:flex-1 w-full">
           <img src={contact} class="lg:max-w-lg" alt="" />
