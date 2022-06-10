@@ -30,7 +30,7 @@ const Header = () => {
           </Link>
         </div>
         <div class="navbar-end hidden lg:flex z-0 text-gray-500">
-          <ul class="menu menu-horizontal p-0 text-md font-medium ">
+          <ul class="menu menu-horizontal p-0 text-md font-medium text-secondary">
             {navMenu}
           </ul>
         </div>
