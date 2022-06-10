@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import project1 from "../../Asset/Banner/Blogs.webp"
-import project2 from "../../Asset/Banner/Blogs.webp"
-import project3 from "../../Asset/Banner/Blogs.webp"
+import project1 from "../../Asset/Project-Three/Screenshot (14) (1).png"
+import project2 from "../../Asset/Project-Three/Screenshot (15) (1).png"
+import project3 from "../../Asset/Project-Three/Screenshot (16) (1).png"
 const ProjectTwo = () => {
   return (
     <div >
@@ -13,7 +13,9 @@ const ProjectTwo = () => {
       <input type="checkbox" id="my-modal-6" class="modal-toggle" />
       <div class="modal">
         <div class="modal-box w-12/12 max-w-7xl sm:w-full ">
-          <h3 class="font-bold text-2xl my-6">TM_manufacturing Website</h3>
+          <h3 class="font-bold text-2xl my-6">TM_manufacturing Website
+            <label for="my-modal-6" class="btn-xl absolute right-16 top-12  cursor-pointer bg-secondary text-white w-10 h-8 rounded-full text-center">✕</label>
+          </h3>
           <div className=''>
             <img src={project1} alt="" className='rounded w-full mb-2' />
             <img src={project2} alt="" className='rounded w-full mb-2' />
@@ -23,8 +25,8 @@ const ProjectTwo = () => {
             <div>
               <h1 className='font-bold text-xl text-secondary text-left '>Projects-Description : </h1>
               <ul className="text-left list-disc mt-3 ml-5">
-                <li>This is a full-stack manufacturing wbsite. Users need to log in via Email and Password<br/> or Google (also can create a new account).</li>
-                <li>Have an admin and user dashboard. Admin can delete, add, and <br/>manage all servics and normal users see all products & can order.</li>
+                <li>This is a full-stack manufacturing wbsite. Users need to log in via Email and Password<br /> or Google (also can create a new account).</li>
+                <li>Have an admin and user dashboard. Admin can delete, add, and <br />manage all servics and normal users see all products & can order.</li>
                 <li>Click order button and naviagete user order pharches page .</li>
                 <li>Users can pay with their Crdit cards for their products.</li>
                 <li>use payment method if user not payment then delete order .</li>

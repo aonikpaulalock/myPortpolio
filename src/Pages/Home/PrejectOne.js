@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import project1 from "../../Asset/Banner/Blogs.webp"
-import project2 from "../../Asset/Banner/Blogs.webp"
-import project3 from "../../Asset/Banner/Blogs.webp"
+import project1 from "../../Asset/ProjectTwo/Capture (1).png"
+import project2 from "../../Asset/ProjectTwo/Capture1 (1).png"
+import project3 from "../../Asset/ProjectTwo/Capture3 (1).png"
 const PrejectOne = () => {
   return (
     <div>
@@ -13,7 +13,10 @@ const PrejectOne = () => {
       <input type="checkbox" id="my-modal-5" class="modal-toggle" />
       <div class="modal">
         <div class="modal-box w-12/12 max-w-7xl sm:w-full ">
-          <h3 class="font-bold text-2xl my-6">Wedding Photograpy Independence Website</h3>
+          <h3 class="font-bold text-2xl my-6">Wedding Photograpy Independence Website
+
+            <label for="my-modal-5" class="btn-xl absolute right-16 top-12  cursor-pointer bg-secondary text-white w-10 h-8 rounded-full text-center">✕</label>
+          </h3>
           <div className=''>
             <img src={project1} alt="" className='rounded w-full mb-2' />
             <img src={project2} alt="" className='rounded w-full mb-2' />

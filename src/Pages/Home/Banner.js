@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import banner2 from "../../Asset/Banner/banner3.png"
+import banner2 from "../../Asset/Banner/banner8.png"
 const Banner = () => {
   return (
     <div class="hero min-h-[90vh]" style={{

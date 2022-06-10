@@ -1,7 +1,6 @@
 import React from 'react';
 import contact from "../../Asset/Contact/contact.png"
 import emailjs from "emailjs-com"
-import { toast } from 'react-toastify';
 const Contact = () => {
   const handleSendEmail = (e) => {
     e.preventDefault()
