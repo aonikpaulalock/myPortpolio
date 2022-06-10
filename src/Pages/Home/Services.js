@@ -5,9 +5,9 @@ import service3 from "../../Asset/Service/service-3.png"
 import Service from './Service';
 
 const services = [
-  { id: 1, name: "Development", des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ipsa qui placeat enim mollitia magnam culpa. Odit accusamus voluptatum libero", img: service1 },
-  { id: 2, name: "Web Design", des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ipsa qui placeat enim mollitia magnam culpa. Odit accusamus voluptatum libero", img: service3 },
-  { id: 3, name: "Support", des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ipsa qui placeat enim mollitia magnam culpa. Odit accusamus voluptatum libero", img: service2 },
+  { id: 1, name: "Development", des: "In the case of developing your site,I always maintain cool & professional mindset.Apart from that, I`m eager to do creative things which make any site reletively better", img: service1 },
+  { id: 2, name: "Web Design", des: "design is really crucial to make any wesite looking attractive.So, I hereby, try to make unique and minimalist design", img: service3 },
+  { id: 3, name: "Support", des: "Don`t worry about your project. Because, I`m always sincere about my client`s satisfaction.So,feel free to ask me any question if you have.I will be really happy to provide you the best quality of service ", img: service2 },
 ]
 const Services = () => {
   return (

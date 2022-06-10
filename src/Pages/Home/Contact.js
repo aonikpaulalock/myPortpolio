@@ -29,7 +29,7 @@ const Contact = () => {
             <br />
             <textarea type="text" placeholder="Enter Message" name="message" class="input input-bordered w-full max-w-lg mb-4" rows={6} />
             <br />
-            <button class="btn btn-secondary rounded-full px-10 py-0 text-white font-bold">Submit</button>
+            <button class="btn btn-secondary rounded-full px-10 py-0 text-white font-bold">let's Collaborate</button>
           </form>
         </div>
       </div>
