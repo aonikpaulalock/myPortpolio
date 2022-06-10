@@ -8,7 +8,7 @@ const Banner = () => {
       backgroundRepeat: "no-repeat",
       backgroundPosition: "center",
       backgroundSize: "cover",
-    }}>
+    }} id="#baneer">
       <div class="hero-content text-center">
         <div class="max-w-lg text-gray-300">
           <h3 class="md:text-2xl text-xl font-medium tracking-wider mb-5">HELLO I Am </h3>

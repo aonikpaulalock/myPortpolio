@@ -8,7 +8,7 @@ import ProjectTwo from './ProjectTwo';
 import ProjectThree from './ProjectThree';
 const Projects = () => {
   return (
-    <div className='sm:px-16 sm:my-16 sm:px-6 px-0 my-10'>
+    <div className='sm:px-16 sm:my-16 sm:px-6 px-0 my-10'id="project">
       <h1 class="md:text-4xl font-bold text-secondary text-3xl tracking-wider">My Portfolio</h1>
       <h3 class="md:text-1xl text-xl font-medium racking-wider pt-2 pb-8 text-neutral">I love what I do. I take great pride in what I do.</h3>
       <div className="grid lg:grid-cols-2 grid-cols-1 gap-8">

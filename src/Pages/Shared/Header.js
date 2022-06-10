@@ -1,15 +1,16 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 const Header = () => {
   const navMenu =
     <>
-      <li><Link to="/">HOME</Link></li>
-      <li><Link to="/about">ABOUT</Link></li>
-      <li><Link to="/skills">SKILLS</Link></li>
-      <li><Link to="/service">SERVICE</Link></li>
-      <li><Link to="/project">PROJECT</Link></li>
-      <li><Link to="/contact">CONTACT</Link></li>
-      <li><Link to="/blogs">BLOGS</Link></li>
+      <li><Link smooth to="#">HOME</Link></li>
+      <li><Link smooth to="#about">ABOUT</Link></li>
+      <li><Link smooth to="#skills">SKILLS</Link></li>
+      <li><Link smooth to="#project">PROJECT</Link></li>
+      <li><Link smooth to="#service">SERVICE</Link></li>
+      <li><Link smooth to="#blogs">BLOGS</Link></li>
+      <li><Link smooth to="#contact">CONTACT</Link></li>
     </>
 
   return (
@@ -23,7 +24,7 @@ const Header = () => {
             {navMenu}
           </ul>
         </div>
-        <Link to="" class="text-secondary font-bold text-3xl tracking-wider">
+        <Link smooth to="#" class="text-secondary font-bold text-3xl tracking-wider">
           Ap<span className='text-neutral'>Aonik</span>
         </Link>
       </div>

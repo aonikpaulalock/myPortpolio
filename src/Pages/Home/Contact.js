@@ -12,7 +12,7 @@ const Contact = () => {
       .catch(err => console.log(err))
   }
   return (
-    <div className="sm:px-10 my-6">
+    <div className="sm:px-10 my-6" id="contact">
       <h1 class="md:text-4xl font-bold text-secondary text-3xl tracking-wider pb-8">CON<span className="text-neutral">TACT</span> US</h1>
       <div class="flex justify-around items-center flex-col md:flex-row rounded-xl">
         <div className="md:flex-1 w-full">

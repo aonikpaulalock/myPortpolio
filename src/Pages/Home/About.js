@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import about from "../../Asset/About/about.png"
 const About = () => {
   return (
-    <div className="sm:px-10 sm:my-8 my-6 px-4">
+    <div className="sm:px-10 sm:my-8 my-6 px-4" id="about">
       <div class="hero lg:p-8">
         <div class="hero-content flex-col lg:flex-row-reverse ">
           <img src={about} class="lg:p-4 sm:max-w-sm md:max-w-md" alt="" />

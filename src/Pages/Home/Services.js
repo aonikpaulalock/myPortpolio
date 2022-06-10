@@ -11,7 +11,7 @@ const services = [
 ]
 const Services = () => {
   return (
-    <div className='sm:px-16 sm:my-16 px-6 my-10'>
+    <div className='sm:px-16 sm:my-16 px-6 my-10' id="service">
       <h1 class="md:text-4xl font-bold text-secondary text-3xl tracking-widest mb-6">What <span className="text-neutral">I'm D</span>oing</h1>
       
       <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6">

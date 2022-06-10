@@ -9,7 +9,7 @@ import Services from './Services';
 import Skills from './Skills';
 const Home = () => {
   return (
-    <div>
+    <div id="#home">
       <Banner/>
       <About/>
       <Skills/>
